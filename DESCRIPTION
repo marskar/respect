@@ -1,0 +1,16 @@
+Package: respect
+Title: Code and Docs that Respect People
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Martin",
+           family = "Skarzynski",
+           role = c("aut", "cre"),
+           email = "marskar@gmail.com")
+Description: This R Package demonstrates examples of best
+    practices that can save time and make life easier for you, future you,
+    and others
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/marskar/respect
+BugReports: https://github.com/marskar/respect/issues
