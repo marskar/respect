@@ -8,6 +8,7 @@ usethis::create_package('respect')
 
 # New project will open, copy the setup script there
 
+# Step 2: Set up version control and GitHub
 # Set up git
 use_git()
 
@@ -48,6 +49,8 @@ use_readme_md()
 # Use terminal or RStudio git integration to push remaining files to GitHub
 
 # Optional: setup github pages and add link to description
+
+# Step 3: Write R code or move exist scripts to R folder
 
 # Create an R script in the R/ folder
 use_r('respect')
