@@ -9,7 +9,7 @@ Authors@R:
 Description: This R Package demonstrates examples of best
     practices that can save time and make life easier for you, future you,
     and others
-License: What license it uses
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/marskar/respect
