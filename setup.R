@@ -46,3 +46,8 @@ use_github(protocol = 'https')
 use_readme_md()
 
 # Use terminal or RStudio git integration to push remaining files to GitHub
+
+# Optional: setup github pages and add link to description
+
+# Create an R script in the R/ folder
+use_r('respect')
