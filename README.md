@@ -1,15 +1,7 @@
----
-title: "How to set up a project - R script"
-author: "Martin Skarzynki"
-date: "2018-12-07"
-output:
-  rmarkdown::html_vignette:
-    keep_md: True
-vignette: >
-  %\VignetteIndexEntry{How to set up a project - R script}
-  %\VignetteEngine{knitr::spin}
-  %\VignetteEncoding{UTF-8}
----
+To create your own project, use this gist:
+<script src="https://gist.github.com/marskar/69ef7dfa5de106a51cdb51b7bee4a2d0.js"></script>
+
+Here is what some of the output may look like:
 
 # Step 1: Create a package/project
 
