@@ -287,9 +287,8 @@ devtools::test()
 ## Skipped:  0
 ```
 
-# Step 6: Create a vignette
-`usethis::use_vignette(name='setup')`
-# Step 7: Check if package is ready to share
+
+# Step 6: Check if package is ready to share
 
 
 ```r
