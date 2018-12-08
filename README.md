@@ -1,4 +1,4 @@
-The steps I followed to create this project/package are detailed in this [gist](https://gist.github.com/marskar/69ef7dfa5de106a51cdb51b7bee4a2d0) and below.
+The steps I followed to create this project/package are detailed in [this gist](https://gist.github.com/marskar/69ef7dfa5de106a51cdb51b7bee4a2d0) and below.
 
 # Step 1: Create a package/project
 
