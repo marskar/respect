@@ -7,10 +7,14 @@ Authors@R:
            role = c("aut", "cre"),
            email = "marskar@gmail.com")
 Description: This R Package demonstrates examples of best
-    practices that can save time and make life easier for you, future you,
-    and others
+    practices. It can save time and make life easier for you, future you,
+    and others.
 License: MIT + file LICENSE
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/marskar/respect
-BugReports: https://github.com/marskar/respect/issues
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr

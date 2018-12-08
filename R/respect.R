@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' respect('trees')
+#' respect::respect('trees')
 respect <- function(x) {
   print(paste("I respect", x))
 }
