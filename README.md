@@ -16,7 +16,9 @@ if (!require(usethis)) install.packages('usethis')
 
 ### Create a new package called `respect`
 
-`usethis::create_package('respect')`
+```r
+usethis::create_package('respect')
+```
 
 New project will open, copy this script there
 
@@ -40,7 +42,9 @@ Pull and Push are unavailable for now
 
 ### Set up git user.name and user.email
 
-`usethis::use_git_config(user.name = "Jane Doe", user.email = "jane@example.com")`
+```r
+usethis::use_git_config(user.name = "Martin Skarzynski", user.email = "myemail@example.com")
+```
 
 
 ```r
@@ -58,12 +62,16 @@ usethis::use_git_config()
 
 ### Get a GitHub Personal Access Token (PAT)
 
-`usethis::browse_github_pat()`
+```r
+usethis::browse_github_pat()
+```
 
 ### Add the PAT to .Renviron,
 e.g. GITHUB_PAT=8c70fd8419398999c9ac5bacf3192882193cadf2
 
-`usethis::edit_r_environ()`
+```r
+usethis::edit_r_environ()
+```
 
 ### Edit the DESCRIPTION file
 
