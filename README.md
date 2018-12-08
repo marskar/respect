@@ -122,7 +122,7 @@ usethis::use_description_defaults()
 ```r
 usethis::use_description(
   fields = list(Title = "Code and Docs that Respect People",
-                `Authors@R` = 'person("Martin", "Skarzynski", email = "marskar@gmail.com", role = c("aut", "cre"))',
+                `Authors@R` = 'person("Martin", "Skarzynski", email = "myemail@example.com", role = c("aut", "cre"))',
                 Description = 'This R Package demonstrates examples of best practices. It can save time and make life easier for you, future you, and others.',
                 Suggests = 'testthat'
 ))
