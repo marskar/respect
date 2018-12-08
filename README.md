@@ -1,7 +1,4 @@
-To create your own project, use this gist:
-<script src="https://gist.github.com/marskar/69ef7dfa5de106a51cdb51b7bee4a2d0.js"></script>
-
-Here is what some of the output may look like:
+The steps I followed to create this project/package are detailed in this [gist](https://gist.github.com/marskar/69ef7dfa5de106a51cdb51b7bee4a2d0) and below.
 
 # Step 1: Create a package/project
 
