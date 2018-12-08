@@ -1,14 +1,22 @@
-# Step 1: Create a package/project
+#' ---
+#' title: "How to set up a project"
+#' author: "Martin Skarzynki"
+#' date: "`r Sys.Date()`"
+#' ---
+#'
+
+#' # Step 1: Create a package/project
 
 # Install usethis if not already installed
 if (!require(usethis)) install.packages('usethis')
 
 # Create a new package called respect in home directory
-usethis::create_package('respect')
+# usethis::create_package('respect')
 
 # New project will open, copy the setup script there
 
-# Step 2: Set up version control and GitHub
+#' # Step 2: Set up version control and GitHub
+
 # Set up git
 use_git()
 
@@ -39,7 +47,7 @@ use_description(
 use_mit_license(name = 'Martin Skarzynski')
 
 # Connect to github
-use_github(protocol = 'https')
+# use_github(protocol = 'https')
 
 # Check github to see your DESCRIPTION there
 
@@ -50,7 +58,10 @@ use_readme_md()
 
 # Optional: setup github pages and add link to description
 
-# Step 3: Write R code or move exist scripts to R folder
+#' # Step 3: Write R code or move exist scripts to R folder
 
 # Create an R script in the R/ folder
 use_r('respect')
+
+#' # Step 4: Document functions with roxygen2 or devtools
+if (!require(devtools)) install.packages('devtools')
